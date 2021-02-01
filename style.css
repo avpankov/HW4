@@ -155,3 +155,20 @@ section{
 .service p{
     line-height: 1.6;
 }
+
+.mt-team { 
+    margin-top: 57px; 
+}
+
+.team-member img { 
+    transition: filter .5s; 
+}
+
+.team-member img:hover { 
+    filter: brightness(70%);
+}
+
+.team-member h3 { 
+    font-size: 1em; 
+    margin: 6px 0 2px; 
+}
