@@ -187,3 +187,6 @@ section{
     margin: 6px 0 2px; 
 }
 
+.change-color:hover{
+    color: #c0301c;
+}
