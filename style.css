@@ -3,6 +3,7 @@
 }
 
 body{
+    margin: 0;
     font-family: Cambria, serif;
     font-size: 14px;
     color: #555;
@@ -69,24 +70,6 @@ header h2{
     font-family: sans-serif;
 }
 
-.menu{
-    text-align: right;
-    float: right;
-    margin: 2px 0;
-    font-family: sans-serif;
-}
-
-.menu a{
-        display: inline-block;
-        color: #fff;
-        text-decoration: none;
-        letter-spacing: 1px;
-        margin-left: 32px;
-}
-.menu a:hover{
-    text-decoration: underline;
-}
-
 .logo{
     text-align: left;
     float: left;
@@ -125,6 +108,24 @@ header h2{
     width: 25%;
 }
 
+.menu{
+    text-align: right;
+    float: right;
+    margin: 2px 0;
+    font-family: sans-serif;
+}
+
+.menu a{
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 1px;
+        margin-left: 32px;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
 section{
     padding: 94px 0 100px;
 }
@@ -142,9 +143,22 @@ section{
     border-bottom: 2px solid;
 }
 
-.intro-text{ 
+.intro-text, .intro-text a{ 
     font-size: 16px; 
     margin-bottom: 70px; 
+}
+
+.intro-text a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    letter-spacing: 1px;
+    margin-left: 32px;
+    transition: color .5s;
+}
+
+.intro-text a:hover {
+    color: c0301c;
 }
 
 .service h3{ 
@@ -172,3 +186,4 @@ section{
     font-size: 1em; 
     margin: 6px 0 2px; 
 }
+
