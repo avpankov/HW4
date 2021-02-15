@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box
+}
+
+body{
+	margin: 0;
+	font-family: serif;
+	color: #555;
+   	line-height: 24px;
+}
+
+.Latest-Works{
+	width: 1140px;
+	margin: 100px auto 64px auto;
+}
+
+.head{
+	text-align: center;
+}
+
+.line-header{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.line-header::after{
+	content: "";
+	display: block;
+	width: 50px;
+	margin: 25px auto;
+	border-bottom: 2px solid;
+}
+
+.head a{
+	font-size: 16px;
+	color: #555;
+	text-decoration: none;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.head a:hover{
+	color: #c0301c;
+}
+
+.images{
+	margin-top: 70px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.row{
+	float: left;
+	margin: 0 0 26px 0;
+}
+
+.middle-img{
+	margin: auto 26px;
+}
+
+.row img{
+	transition: filter .5s;
+}
+
+.row img:hover{
+	filter: brightness(70%);
+}
+
+.getintouch{
+	height: 368px;
+	background: url(images/Paralax-section.jpg) no-repeat;
+	background-size: cover;
+}
+
+.text{
+	padding: 100px 0 50px 0;
+}
+
+.text p{
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #fff;
+	line-height: 44px;
+	text-align: center;
+	margin: 0;
+}
+
+.ref{
+	text-align: center;
+}
+#btn{
+	font-family: sans-serif;
+	text-align: center;
+	padding: 16px 40px;
+	border: 2px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s;
+}
+
+#btn:hover{
+	color: #c0301c;
+	background-color: #fff;
+}
